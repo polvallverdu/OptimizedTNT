@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "engineer.pol.optimizedtnt",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "mixin.ExplosionMixin",
+    "mixin.TntEntityMixin",
+    "mixin.TntEntityMixin$EntityAccessor",
+    "mixin.TntEntityMixin$TntEntityAccessor"
+  ],
+  "client": [
+    "client.mixin.TntEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

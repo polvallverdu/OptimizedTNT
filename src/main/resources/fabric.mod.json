@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "optimizedtnt",
+  "version": "${version}",
+  "name": "OptimizedTNT",
+  "description": "Optimized tnt",
+  "authors": [
+    "pol_vallverdu"
+  ],
+  "contact": {
+    "website": "pol.engineer"
+  },
+  "license": "MIT",
+  "icon": "assets/OptimizedTNT/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "engineer.pol.optimizedtnt.client.OptimizedTNTClient"
+    ],
+    "main": [
+      "engineer.pol.optimizedtnt.OptimizedTNT"
+    ]
+  },
+  "mixins": [
+    "OptimizedTNT.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
